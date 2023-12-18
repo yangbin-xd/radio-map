@@ -1,5 +1,5 @@
 
-# plot the scenario of DeepMIMO
+# plot the scenario
 import numpy as np
 import matplotlib.pyplot as plt
 

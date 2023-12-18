@@ -5,7 +5,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 import numpy as np
 from keras.models import load_model
-from library import *
+from utils import *
 
 # Read Data
 BS = np.load('data/BSloc.npy')
@@ -20,7 +20,6 @@ loc = UEloc[:,0:2]
 CSI1 = np.transpose(CSI1, [0,3,1,2])
 CSI2 = np.transpose(CSI2, [0,3,1,2])
 [N, Nc, Nr, Nt] = (CSI1.shape)
-
 
 # CSI concatenate
 CSI1_conc = np.empty([N, Nc, Nr, Nt, 2])
