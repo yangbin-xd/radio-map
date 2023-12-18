@@ -2,7 +2,7 @@
 # location based beamforming
 import math
 import numpy as np
-from library import *
+from utils import *
 
 # Read Data
 BS = np.load('data/BSloc.npy')
