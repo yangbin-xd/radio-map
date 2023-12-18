@@ -155,3 +155,4 @@ def train(x_train, y_train, x_test, y_test, epoch):
     model.fit(x_train, y_train, epochs = epoch, batch_size = 128, verbose = 1)
     model.evaluate(x_test, y_test, verbose = 1)
     return model
+  
