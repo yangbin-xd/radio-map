@@ -1,7 +1,7 @@
 
 # channel knowledge map
 import numpy as np
-from library import *
+from utils import *
 
 # Read Data
 UEloc = np.load('data/UEloc.npy')
