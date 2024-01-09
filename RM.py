@@ -59,11 +59,11 @@ x_test = loc_norm[N-N_test:N,:]
 y1_test = CSI1_norm[N-N_test:N,:]
 y2_test = CSI2_norm[N-N_test:N,:]
 
-# # train
-# model1 = train(x_train, y1_train, x_test, y1_test, 2000)
-# model1.save('model/BS1.h5')
-# model2 = train(x_train, y2_train, x_test, y2_test, 2000)
-# model2.save('model/BS2.h5')
+# train
+model1 = train(x_train, y1_train, x_test, y1_test, 2000)
+model1.save('model/BS1.h5')
+model2 = train(x_train, y2_train, x_test, y2_test, 2000)
+model2.save('model/BS2.h5')
 
 CSI1_test = CSI1[N-N_test:N,:] # (N_test, Nc, Nr, Nt)
 CSI2_test = CSI2[N-N_test:N,:] # (N_test, Nc, Nr, Nt)
