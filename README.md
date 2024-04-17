@@ -5,6 +5,19 @@ This is the source code for IEEE ICC 2024 paper
 __"Cell-Free Massive MIMO Beamforming Based on Radio Map"__  
 _Welcome to cite this article !_
 
+```
+@inproceedings{yang2024cell,
+  author={Yang, Bin and Wang, Wei and Zhang, Wei},
+  booktitle={Proc. IEEE Int. Conf. Commun. (ICC)},
+  title={Cell-free massive {MIMO} beamforming based on radio map},
+  month={Jun.},
+  year={2024},
+  volume={},
+  number={},
+  pages={1-6}
+}
+```
+
 ## Authors:  
 authors: Bin Yang∗, Wei Wang†, Wei Zhang∗  
 ∗University of New South Wales, Sydney, NSW 2052, Australia   
