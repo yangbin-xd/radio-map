@@ -12,8 +12,6 @@ _Welcome to cite this article !_
   title={Cell-free massive {MIMO} beamforming based on radio map},
   month={Jun.},
   year={2024},
-  volume={},
-  number={},
   pages={1-6}
 }
 ```
