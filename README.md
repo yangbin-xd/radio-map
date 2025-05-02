@@ -56,7 +56,8 @@ python LBB.py
 ```
 python CKM.py
 ```
-10. Finally, the proposed radio map   __(If you want to use the model trained by the author, you can annotate lines 62-66 of RM.Py)__
+10. Finally, the proposed radio map  
+__(If you want to use the model trained by the author, you can annotate lines 62-66 of RM.Py)__
 ```
 python RM.py
 ```
