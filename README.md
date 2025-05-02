@@ -26,28 +26,36 @@ virtualenv env_RM
 ```
 source env_RM/bin/activate
 ```
+3. git clone the repository to your folder
 ```
 git clone https://github.com/yangbin-xd/radio-map.git
 ```
 ```
+4. cd to the folder
 cd radio-map
 ```
 ```
+5. pip install required modules according to the requirements
 pip install -r requirements.txt --no-deps
 ```
 ```
+6. Please uninstall the numpy with high version
 pip uninstall numpy
 ```
 ```
+7. And degrade the numpy version to 1.19.5
 pip install numpy==1.19.5
 ```
 
+8. Then, you can run benchmark of location-based beamforming
 ```
 python LBB.py
 ```
+9. And benchmark of channel knowledge map
 ```
 python CKM.py
 ```
+10. Finally, the proposed radio map
 ```
 python RM.py
 ```
