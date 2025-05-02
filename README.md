@@ -18,6 +18,7 @@ __If you find this project useful, we would be grateful if you cite the followin
 }
 ```
 
+## Please follow the following steps:
 1. Create virtual environment for this repository  
 ```
 virtualenv env_RM
@@ -38,11 +39,11 @@ cd radio-map
 ```
 pip install -r requirements.txt --no-deps
 ```
-6. Please uninstall the numpy with high version
+6. __Please uninstall the numpy with high version__
 ```
 pip uninstall numpy
 ```
-7. And degrade the numpy version to 1.19.5
+7. __And degrade the numpy version to 1.19.5__
 ```
 pip install numpy==1.19.5
 ```
