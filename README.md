@@ -18,6 +18,20 @@ __If you find this project useful, we would be grateful if you cite the followin
 }
 ```
 
+```
+virtualenv env_RM
+source env_RM/bin/activate
+git clone https://github.com/yangbin-xd/radio-map.git
+cd radio-map
+pip install -r requirements.txt --no-deps
+pip uninstall numpy
+pip install numpy==1.19.5
+
+python LBB.py
+python CKM.py
+python RM.py
+```
+
 ## Authors:  
 authors: Bin Yang∗, Wei Wang†, Wei Zhang∗  
 ∗University of New South Wales, Sydney, NSW 2052, Australia   
