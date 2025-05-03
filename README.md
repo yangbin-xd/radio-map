@@ -56,7 +56,7 @@ __9. And benchmark of channel knowledge map__
 python CKM.py
 ```
 __10. Finally, the proposed radio map__  
-__(If you want to use the model trained by the author, you can annotate lines 62-66 of RM.Py)__
+__(If you want to use the model trained by the author, you can annotate lines 62-66 of RM.py)__
 ```
 python RM.py
 ```
