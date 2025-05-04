@@ -7,7 +7,7 @@ https://ieeexplore.ieee.org/document/10622568
 
 __If you find this project useful, we would be grateful if you cite the following paper：__
 
-```
+```bibtex
 @inproceedings{yang2024cell,
   author={Yang, Bin and Wang, Wei and Zhang, Wei},
   booktitle={Proc. IEEE Int. Conf. Commun. (ICC)},
@@ -19,45 +19,46 @@ __If you find this project useful, we would be grateful if you cite the followin
 ```
 
 ## 🛠️ Please follow the following steps:
-__1. Create virtual environment for this repository__  
-```
+__1. Configure virtual environment for this repository__   
+```python
+# Create virtual environment for this repository (pip install virtualenv)  
 virtualenv env_RM
-```
-__2. Activate the created environment__
-```
+
+# Activate the created environment
 source env_RM/bin/activate
 ```
-__3. git clone the repository to your folder__
-```
+
+__2. Download the repository to local__
+```python
+# git clone the repository to your folder
 git clone https://github.com/yangbin-xd/radio-map.git
-```
-__4. cd to the folder__
-```
+
+# cd to the folder
 cd radio-map
 ```
-__5. pip install required modules according to the requirements__
-```
+
+__3. Install the required modules__
+```python
+# pip install required modules according to the requirements
 pip install -r requirements.txt --no-deps
-```
-__6. Please uninstall the numpy with high version__
-```
+
+#  Please uninstall the numpy with high version
 pip uninstall numpy
-```
-__7. And degrade the numpy version to 1.19.5__
-```
+
+# And degrade the numpy version to 1.19.5
 pip install numpy==1.19.5
 ```
-__8. Then, you can run benchmark of location-based beamforming__
-```
+
+__4. Then, you can run files__
+```python
+# benchmark of location-based beamforming
 python LBB.py
-```
-__9. And benchmark of channel knowledge map__
-```
+
+# And benchmark of channel knowledge map
 python CKM.py
-```
-__10. Finally, the proposed radio map__  
-__(If you want to use the model trained by the author, you can annotate lines 62-66 of RM.py)__
-```
+
+# Finally, the proposed radio map 
+# If you want to use the model trained by the author, you can annotate lines 62-66 of RM.py
 python RM.py
 ```
 
