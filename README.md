@@ -1,4 +1,8 @@
-# 🚨 radio-map
+# 🚨 radio-map  
+
+[![Code](https://img.shields.io/badge/Code-GitHub-blue?logo=github)](https://github.com/yangbin-xd/radio-map)
+[![Paper](https://img.shields.io/badge/Paper-IEEE-blue?logo=ieee)](https://ieeexplore.ieee.org/document/10622568)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ## 📝 Information:
 This is the source code for IEEE ICC 2024 paper  
