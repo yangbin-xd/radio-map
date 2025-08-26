@@ -25,8 +25,8 @@ __If you find this project useful, we would be grateful if you cite the followin
 ## 🛠️ Please follow the following steps:
 __1. Configure virtual environment for this repository__   
 ```python
-# Create virtual environment for this repository (pip install virtualenv)  
-virtualenv env_RM
+# Create virtual environment for this repository  
+python3 -m venv env_RM
 
 # Activate the created environment
 source env_RM/bin/activate
